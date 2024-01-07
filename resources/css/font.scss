@@ -1,0 +1,53 @@
+@import url('../fonts/PlusJakartaSans/font.css');
+
+html { font-size: 125%; }
+
+body {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+p { margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  // margin: -0.24em 0 1.2rem; // with Fake leading-trim
+  margin: -0.24em 0 0; // with Fake leading-trim
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  line-height: 1.2;
+  letter-spacing: -.02em;
+  font-feature-settings: 'ss02';
+
+  &.wrap { width: min-content; }
+}
+
+h1 { font-size: 4.209rem; }
+h2 { font-size: 3.157rem; }
+h3 { font-size: 2.369rem; }
+h4 { font-size: 1.777rem; }
+h5 { font-size: 1.333rem; }
+h6 { font-size: 1rem; }
+small, .text_small { font-size: 0.707rem; }
+
+span.bold { font-weight: 500; }
+
+h1, h2 {
+  font-weight: 400;
+  &.bold, & span.bold { font-weight: 700; }
+}
+h3, h4, h5, h6 {
+  font-weight: 500;
+  &.bold, & span.bold { font-weight: 700; }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 110%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+}

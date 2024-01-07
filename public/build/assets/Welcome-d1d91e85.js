@@ -1,0 +1,1 @@
+import{j as e,a as r,d as s}from"./app-ca5cf8e1.js";function t(){return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Welcome"}),e.jsx("h1",{children:"Welcome"}),e.jsx("p",{children:"Hello, welcome to your first Inertia app!"}),e.jsx(s,{href:"/second",children:"Hidden"})]})}export{t as default};

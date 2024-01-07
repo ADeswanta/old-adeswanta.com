@@ -1,0 +1,1 @@
+import{j as e,a as s}from"./app-ca5cf8e1.js";function t(){return e.jsxs(e.Fragment,{children:[e.jsx(s,{title:"Second"}),e.jsx("h1",{children:"Second Page"}),e.jsx("p",{children:"This is a second page. Nothing to see here!"})]})}export{t as default};

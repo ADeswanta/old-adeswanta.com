@@ -1,0 +1,32 @@
+{
+  "resources/css/app.scss": {
+    "file": "assets/app-c7a5147e.css",
+    "isEntry": true,
+    "src": "resources/css/app.scss"
+  },
+  "resources/js/Pages/Second.jsx": {
+    "file": "assets/Second-c32890ec.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Second.jsx"
+  },
+  "resources/js/Pages/Welcome.jsx": {
+    "file": "assets/Welcome-d1d91e85.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Welcome.jsx"
+  },
+  "resources/js/app.jsx": {
+    "dynamicImports": [
+      "resources/js/Pages/Second.jsx",
+      "resources/js/Pages/Welcome.jsx"
+    ],
+    "file": "assets/app-ca5cf8e1.js",
+    "isEntry": true,
+    "src": "resources/js/app.jsx"
+  }
+}

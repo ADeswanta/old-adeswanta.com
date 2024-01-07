@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Inertia\Inertia;
+
+use App\Http\Controllers\WelcomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +17,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return Inertia::render('Welcome');
+});
+
+Route::get('/projects', function () {
+  return Inertia::render('WIP');
+});
+
+Route::get('/gallery', function () {
+  return Inertia::render('WIP');
+});
+
+Route::get('/feeds', function () {
+  return Inertia::render('WIP');
+});
+
+Route::get('/about', function () {
+  return Inertia::render('WIP');
 });
