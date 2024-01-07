@@ -1,31 +1,39 @@
 {
   "resources/css/app.scss": {
-    "file": "assets/app-c7a5147e.css",
+    "file": "assets/app-58b5993e.css",
     "isEntry": true,
     "src": "resources/css/app.scss"
   },
-  "resources/js/Pages/Second.jsx": {
-    "file": "assets/Second-c32890ec.js",
-    "imports": [
-      "resources/js/app.jsx"
-    ],
-    "isDynamicEntry": true,
-    "src": "resources/js/Pages/Second.jsx"
+  "resources/images/figma.svg": {
+    "file": "assets/figma-7222dc70.svg",
+    "src": "resources/images/figma.svg"
   },
-  "resources/js/Pages/Welcome.jsx": {
-    "file": "assets/Welcome-d1d91e85.js",
-    "imports": [
-      "resources/js/app.jsx"
-    ],
-    "isDynamicEntry": true,
-    "src": "resources/js/Pages/Welcome.jsx"
+  "resources/images/github.svg": {
+    "file": "assets/github-e99d7dc2.svg",
+    "src": "resources/images/github.svg"
+  },
+  "resources/images/instagram.svg": {
+    "file": "assets/instagram-d6137e3e.svg",
+    "src": "resources/images/instagram.svg"
+  },
+  "resources/images/logo.svg": {
+    "file": "assets/logo-bdb1124b.svg",
+    "src": "resources/images/logo.svg"
+  },
+  "resources/images/mastodon.svg": {
+    "file": "assets/mastodon-620b6f70.svg",
+    "src": "resources/images/mastodon.svg"
+  },
+  "resources/images/twitter.svg": {
+    "file": "assets/twitter-a75fbd06.svg",
+    "src": "resources/images/twitter.svg"
+  },
+  "resources/images/youtube.svg": {
+    "file": "assets/youtube-42a23b8f.svg",
+    "src": "resources/images/youtube.svg"
   },
   "resources/js/app.jsx": {
-    "dynamicImports": [
-      "resources/js/Pages/Second.jsx",
-      "resources/js/Pages/Welcome.jsx"
-    ],
-    "file": "assets/app-ca5cf8e1.js",
+    "file": "assets/app-57071057.js",
     "isEntry": true,
     "src": "resources/js/app.jsx"
   }
