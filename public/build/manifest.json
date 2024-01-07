@@ -4,6 +4,19 @@
     "isEntry": true,
     "src": "resources/css/app.scss"
   },
+  "resources/css/font.scss": {
+    "file": "assets/font-4856c2c7.css",
+    "isEntry": true,
+    "src": "resources/css/font.scss"
+  },
+  "resources/fonts/PlusJakartaSans/PlusJakartaSans-Italic[wght].ttf": {
+    "file": "assets/PlusJakartaSans-Italic_wght_-ab1fdc30.ttf",
+    "src": "resources/fonts/PlusJakartaSans/PlusJakartaSans-Italic[wght].ttf"
+  },
+  "resources/fonts/PlusJakartaSans/PlusJakartaSans[wght].ttf": {
+    "file": "assets/PlusJakartaSans_wght_-3c910273.ttf",
+    "src": "resources/fonts/PlusJakartaSans/PlusJakartaSans[wght].ttf"
+  },
   "resources/images/figma.svg": {
     "file": "assets/figma-7222dc70.svg",
     "src": "resources/images/figma.svg"
