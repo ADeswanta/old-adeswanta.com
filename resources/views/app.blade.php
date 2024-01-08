@@ -6,7 +6,7 @@
 
         {{-- @cspMetaTag(App\Support\MainPolicy::class) --}}
 
-        <link rel="icon" type="image/x-icon" href="favicon.png">
+        <link rel="icon" type="image/x-icon" href="public/favicon.png">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
