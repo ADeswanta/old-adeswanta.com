@@ -3,6 +3,7 @@ import { createInertiaApp, router } from '@inertiajs/react'
 import { createRoot } from 'react-dom/client'
 import Layout from './Layout';
 import charming from './Plugins/charming';
+import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 
 let setLettering = () => {
   document.querySelectorAll("h1, h2, h3, h4, h5, h6, p").forEach(el => {
@@ -34,11 +35,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 createInertiaApp({
   resolve: name => {
-    const pages = import.meta.glob('./Pages/**/*.jsx', { eager: true })
+    const pages = import.meta.glob('./Pages/**/*.jsx')
     let page = pages[`./Pages/${name}.jsx`]
-    page.default.layout = page.default.layout || (page => <Layout children={page} />)
+    page.layout = (page => <Layout children={page} />)
     return page
   },
+
   setup({ el, App, props }) {
     createRoot(el).render(<App {...props}/>);
     console.log("onSetup");

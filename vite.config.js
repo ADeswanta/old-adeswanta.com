@@ -7,7 +7,7 @@ export default defineConfig({
     plugins: [
         laravel({
             input: ['resources/css/app.scss', 'resources/css/font.scss', 'resources/js/app.jsx'],
-            refresh: true,
+            refresh: true
         }),
         svgr(),
         react(),
