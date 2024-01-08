@@ -3,6 +3,7 @@
 namespace App\Support;
 
 use Spatie\Csp\Policies\Basic;
+use Spatie\Csp\Directive;
 
 class MainPolicy extends Basic
 {
