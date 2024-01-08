@@ -4,7 +4,6 @@ import ThemeSwitcher from '../Components/ThemeSwitcher'
 
 export default function Header() {
   document.addEventListener('DOMContentLoaded', () => {
-    console.log("interset");
     new IntersectionObserver(
       ([e]) => e.target.classList.toggle('sticked', e.intersectionRatio < 1),
       {

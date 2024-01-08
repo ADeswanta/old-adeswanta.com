@@ -25,7 +25,7 @@ router.on('start', (event) => {
 document.addEventListener('DOMContentLoaded', (event) => {
   new MutationObserver((mutations) => {
     mutations.forEach((mutation) => {
-        console.log(mutation.type);
+        // console.log(mutation.type);
           if (mutation.type === 'childList') {
             setLettering();
           }
@@ -35,9 +35,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 createInertiaApp({
   resolve: name => {
-    const pages = import.meta.glob('./Pages/**/*.jsx')
+    const pages = import.meta.glob('./Pages/**/*.jsx', { eager: true })
     let page = pages[`./Pages/${name}.jsx`]
-    page.layout = (page => <Layout children={page} />)
+    page.default.layout = (page => <Layout children={page} />)
     return page
   },
 
