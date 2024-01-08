@@ -13,5 +13,5 @@ export default defineConfig({
         svgr(),
         react(),
     ],
-    base: 'https://adeswanta.com/public'
+    publicDir: '/public'
 });
