@@ -15,7 +15,7 @@
 
         </style>
 
-        @routes(nonce: Vite::cspNonce())
+        @cspMetaTag(App\Support\MainPolicy::class)
         @viteReactRefresh
         @vite([
           'resources/js/app.jsx',
