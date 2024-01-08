@@ -137,6 +137,8 @@ header {
 
   height: 56px;
 
+  user-select: none;
+
   & nav {
     justify-content: end;
     display: flex;

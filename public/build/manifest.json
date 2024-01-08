@@ -1,6 +1,6 @@
 {
   "resources/css/app.scss": {
-    "file": "assets/app-58b5993e.css",
+    "file": "assets/app-693c2fbd.css",
     "isEntry": true,
     "src": "resources/css/app.scss"
   },
@@ -46,7 +46,7 @@
     "src": "resources/images/youtube.svg"
   },
   "resources/js/app.jsx": {
-    "file": "assets/app-d3d07ac2.js",
+    "file": "assets/app-84ab6654.js",
     "isEntry": true,
     "src": "resources/js/app.jsx"
   }
