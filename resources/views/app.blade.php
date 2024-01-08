@@ -17,10 +17,10 @@
 
         @viteReactRefresh
         @vite([
-          'resources/js/app.jsx',
-          'resources/css/app.scss',
-          'resources/css/font.scss',
-          "resources/js/Pages/{$page['component']}.jsx"
+          './resources/js/app.jsx',
+          './resources/css/app.scss',
+          './resources/css/font.scss',
+          "./resources/js/Pages/{$page['component']}.jsx"
         ])
         @inertiaHead
     </head>

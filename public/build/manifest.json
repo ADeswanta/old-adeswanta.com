@@ -5,7 +5,7 @@
     "src": "resources/css/app.scss"
   },
   "resources/css/font.scss": {
-    "file": "assets/font-4856c2c7.css",
+    "file": "assets/font-95d1f3fb.css",
     "isEntry": true,
     "src": "resources/css/font.scss"
   },
@@ -46,7 +46,7 @@
     "src": "resources/images/youtube.svg"
   },
   "resources/js/Pages/WIP.jsx": {
-    "file": "assets/WIP-e3cd029f.js",
+    "file": "assets/WIP-90ae2066.js",
     "imports": [
       "resources/js/app.jsx"
     ],
@@ -54,7 +54,7 @@
     "src": "resources/js/Pages/WIP.jsx"
   },
   "resources/js/Pages/Welcome.jsx": {
-    "file": "assets/Welcome-0f617ba9.js",
+    "file": "assets/Welcome-f5ce18a6.js",
     "imports": [
       "resources/js/app.jsx"
     ],
@@ -66,7 +66,7 @@
       "resources/js/Pages/WIP.jsx",
       "resources/js/Pages/Welcome.jsx"
     ],
-    "file": "assets/app-d1526f3b.js",
+    "file": "assets/app-1d629432.js",
     "isEntry": true,
     "src": "resources/js/app.jsx"
   }
