@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import I from "./Icon"
 
 export default function ThemeSwitcher() {
-  const [mode, setMode] = useState(localStorage.getItem('color-scheme') ?? "light");
+  const [mode, setMode] = useState(localStorage.getItem('color-scheme') ?? "auto");
 
   const root = document.querySelector(':root');
 
