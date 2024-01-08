@@ -15,6 +15,7 @@
 
         </style>
 
+        @routes(nonce: csp_nonce())
         @viteReactRefresh
         @vite([
           'resources/js/app.jsx',
