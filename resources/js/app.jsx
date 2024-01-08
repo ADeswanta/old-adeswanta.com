@@ -1,6 +1,7 @@
 import './bootstrap';
 import { createInertiaApp, router } from '@inertiajs/react'
-import { createRoot } from 'react-dom/client'
+// import { createRoot } from 'react-dom/client'
+import { hydrateRoot } from 'react-dom/client'
 import Layout from './Layout';
 import charming from './Plugins/charming';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
@@ -42,7 +43,7 @@ createInertiaApp({
   },
 
   setup({ el, App, props }) {
-    createRoot(el).render(<App {...props}/>);
+    hydrateRoot(el, <App {...props}/>);
     console.log("onSetup");
   },
   progress: {

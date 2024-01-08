@@ -8,6 +8,7 @@ export default defineConfig({
         laravel({
             // buildDirectory: "/",
             input: ['resources/css/app.scss', 'resources/css/font.scss', 'resources/js/app.jsx'],
+            ssr: 'resources/js/ssr.jsx',
             refresh: true
         }),
         svgr(),
