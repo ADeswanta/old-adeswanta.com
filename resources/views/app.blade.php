@@ -6,6 +6,8 @@
 
         {{-- @cspMetaTag(App\Support\MainPolicy::class) --}}
 
+        <link rel="icon" type="image/x-icon" href="favicon.png">
+
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
