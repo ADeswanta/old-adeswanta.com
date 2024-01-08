@@ -12,6 +12,7 @@ class MainPolicy extends Basic
         parent::configure();
 
         $this->addDirective(Directive::SCRIPT, ['https://adeswanta.com'])
-            ->addDirective(Directive::STYLE, ['https://adeswanta.com']);
+            ->addDirective(Directive::STYLE, ['https://adeswanta.com'])
+            ->addDirective(Directive::FONT, ['https://fonts.gstatic.com']);
     }
 }
