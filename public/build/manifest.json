@@ -5,7 +5,7 @@
     "src": "resources/css/app.scss"
   },
   "resources/css/font.scss": {
-    "file": "assets/font-4856c2c7.css",
+    "file": "assets/font-f8868276.css",
     "isEntry": true,
     "src": "resources/css/font.scss"
   },
@@ -46,7 +46,7 @@
     "src": "resources/images/youtube.svg"
   },
   "resources/js/app.jsx": {
-    "file": "assets/app-d5157f62.js",
+    "file": "assets/app-d3d07ac2.js",
     "isEntry": true,
     "src": "resources/js/app.jsx"
   }
