@@ -38,6 +38,7 @@ class Kernel extends HttpKernel
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
             \App\Http\Middleware\HandleInertiaRequests::class,
             \Spatie\Csp\AddCspHeaders::class,
+            \App\Http\Middleware\AddContentSecurityPolicyHeaders::class,
         ],
 
         'api' => [
