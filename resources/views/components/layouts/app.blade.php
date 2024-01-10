@@ -6,6 +6,8 @@
 
         <title>{{ isset($title) ? $title.' - ADeswanta' : 'ADeswanta' }}</title>
 
+        <meta name="description" content="ADeswanta, a 18yo Designer & Developer">
+
         <link rel="icon" type="image/x-icon" href="public/favicon.png">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
