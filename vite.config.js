@@ -1,18 +1,17 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
-import react from '@vitejs/plugin-react';
-import svgr from "vite-plugin-svgr";
+
+import livewire, {defaultWatches} from '@defstudio/vite-livewire-plugin';
 
 export default defineConfig({
     plugins: [
         laravel({
-            // buildDirectory: "/",
-            input: ['resources/css/app.scss', 'resources/css/font.scss', 'resources/js/app.jsx'],
-            ssr: 'resources/js/ssr.jsx',
-            refresh: true
+            input: ['resources/js/app.js', 'resources/css/app.scss', 'resources/css/font.scss'],
+            refresh: true,
         }),
-        svgr(),
-        react(),
+
+        // livewire({
+        //     refresh: ['resources/css/app.scss', 'resources/css/font.scss'],
+        // }),
     ],
-    publicDir: '/public'
 });

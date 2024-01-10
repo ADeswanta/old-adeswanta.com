@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Inertia\Inertia;
 
-use App\Http\Controllers\WelcomeController;
+use App\Livewire\Pages\Welcome;
+use App\Livewire\Pages\WIP;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,22 +16,9 @@ use App\Http\Controllers\WelcomeController;
 |
 */
 
-Route::get('/', function () {
-    return Inertia::render('Welcome');
-});
+Route::get('/', Welcome::class);
 
-Route::get('/projects', function () {
-  return Inertia::render('WIP');
-});
-
-Route::get('/gallery', function () {
-  return Inertia::render('WIP');
-});
-
-Route::get('/feeds', function () {
-  return Inertia::render('WIP');
-});
-
-Route::get('/about', function () {
-  return Inertia::render('WIP');
-});
+Route::get('/projects', WIP::class);
+Route::get('/gallery', WIP::class);
+Route::get('/feeds', WIP::class);
+Route::get('/about', WIP::class);

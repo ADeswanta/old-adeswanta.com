@@ -1,53 +1,25 @@
 {
   "resources/css/app.scss": {
-    "file": "assets/app-693c2fbd.css",
+    "file": "assets/app-Y749c7kB.css",
     "isEntry": true,
     "src": "resources/css/app.scss"
   },
   "resources/css/font.scss": {
-    "file": "assets/font-2b2fc8d1.css",
+    "file": "assets/font-A5z9rS8r.css",
     "isEntry": true,
     "src": "resources/css/font.scss"
   },
   "resources/fonts/PlusJakartaSans/PlusJakartaSans-Italic[wght].ttf": {
-    "file": "assets/PlusJakartaSans-Italic_wght_-ab1fdc30.ttf",
+    "file": "assets/PlusJakartaSans-Italic_wght_-tT-ABQQi.ttf",
     "src": "resources/fonts/PlusJakartaSans/PlusJakartaSans-Italic[wght].ttf"
   },
   "resources/fonts/PlusJakartaSans/PlusJakartaSans[wght].ttf": {
-    "file": "assets/PlusJakartaSans_wght_-3c910273.ttf",
+    "file": "assets/PlusJakartaSans_wght_-GB1uGhAS.ttf",
     "src": "resources/fonts/PlusJakartaSans/PlusJakartaSans[wght].ttf"
   },
-  "resources/images/figma.svg": {
-    "file": "assets/figma-7222dc70.svg",
-    "src": "resources/images/figma.svg"
-  },
-  "resources/images/github.svg": {
-    "file": "assets/github-e99d7dc2.svg",
-    "src": "resources/images/github.svg"
-  },
-  "resources/images/instagram.svg": {
-    "file": "assets/instagram-d6137e3e.svg",
-    "src": "resources/images/instagram.svg"
-  },
-  "resources/images/logo.svg": {
-    "file": "assets/logo-bdb1124b.svg",
-    "src": "resources/images/logo.svg"
-  },
-  "resources/images/mastodon.svg": {
-    "file": "assets/mastodon-620b6f70.svg",
-    "src": "resources/images/mastodon.svg"
-  },
-  "resources/images/twitter.svg": {
-    "file": "assets/twitter-a75fbd06.svg",
-    "src": "resources/images/twitter.svg"
-  },
-  "resources/images/youtube.svg": {
-    "file": "assets/youtube-42a23b8f.svg",
-    "src": "resources/images/youtube.svg"
-  },
-  "resources/js/app.jsx": {
-    "file": "assets/app-914b49c2.js",
+  "resources/js/app.js": {
+    "file": "assets/app-b3WLZdpM.js",
     "isEntry": true,
-    "src": "resources/js/app.jsx"
+    "src": "resources/js/app.js"
   }
 }
