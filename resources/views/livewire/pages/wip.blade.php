@@ -1,3 +1,5 @@
+<x-slot:description>This page isn't ready yet.</x-slot>
+
 <div>
     <section id="wip" class="center">
         <h1>WIP</h1>

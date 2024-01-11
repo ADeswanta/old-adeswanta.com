@@ -1,3 +1,5 @@
+<x-slot:description>A 18yo designer and developer.</x-slot>
+
 {{-- Success is as dangerous as failure. --}}
 <div class="child">
     <section id="coming-soon" class="center full">
