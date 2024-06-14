@@ -5,7 +5,7 @@
         <span>Follow me on social media:</span>
         <span class="social-media">
             <a href="https://twitter.com/adeswanta08"><button>@svg('images/twitter.svg')</button></a>
-            <a href="https://mastodon.social/@adeswanta"><button>@svg('images/mastodon.svg')</button></a>
+            <a rel="me" href="https://mastodon.social/@adeswanta"><button>@svg('images/mastodon.svg')</button></a>
             <a href="https://www.instagram.com/adeswanta.08/"><button>@svg('images/instagram.svg')</button></a>
             <a href="https://github.com/ADeswanta"><button>@svg('images/github.svg')</button></a>
             <a href="https://www.figma.com/@adeswanta08"><button>@svg('images/figma.svg')</button></a>
